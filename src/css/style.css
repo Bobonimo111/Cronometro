@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    gap: 20px 0;
+    font-family: 'Orbitron';
+    font-size: 30px;
+}
+.conteiner{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+#mili{
+    font-size: 20px ;
+}
+.btn{
+    display: none;
+    border-radius: 30px;
+    font-size: 20px;
+    width: 130px;
+    background-color: rgb(219, 219, 219);
+    margin: 0 5px;
+    transition: all .2s ease-in-out;
+    
+}
+
+.btn:hover{
+    background-color: rgb(194, 194, 194);
+    transform: scale(1.2);
+    
+
+}
+.btn:active{
+    background-color: rgb(224, 224, 224);
+}
+.marcadores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.marcadores>p{
+    margin:50px 0 10px 0;
+}
+.marcadores>div{
+    font-size: 20px;
+    height: 300px;
+    width: 500px;
+    background-color: rgb(245, 245, 245);
+}
+#tabelas{
+    padding: 0;
+    
+    overflow: auto;
+    
+}
+#tabelas>div{
+    margin: 0;
+    padding: 10px 0 0 5px;
+}
+#tabelas>div>span:first-child{
+    display: inline-flex;
+    width: 50px;
+}
+#tabelas>div:nth-child(odd){
+    background-color: white;
+
+}
