@@ -1,3 +1,3 @@
 # Cronometro
 
-## teste https://bobonimo111.github.io/Cronometro/
+## Teste você mesmo: https://bobonimo111.github.io/Cronometro/
