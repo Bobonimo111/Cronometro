@@ -6,6 +6,8 @@ body{
     gap: 20px 0;
     font-family: 'Orbitron';
     font-size: 30px;
+    background: rgb(11,7,82);
+    background: linear-gradient(90deg, rgba(11,7,82,0.7343312324929971) 0%, rgba(9,9,121,0.6138830532212884) 55%, rgba(11,7,82,0.7287289915966386) 100%);
 }
 .conteiner{
     text-align: center;
@@ -51,7 +53,7 @@ body{
     font-size: 20px;
     height: 300px;
     width: 500px;
-    background-color: rgb(245, 245, 245);
+    background-color: rgba(245, 245, 245, 0.671);
 }
 #tabelas{
     padding: 0;
@@ -61,7 +63,7 @@ body{
 }
 #tabelas>div{
     margin: 0;
-    padding: 10px 0 0 5px;
+    padding: 5px 0 5px 10px;
 }
 #tabelas>div>span:first-child{
     display: inline-flex;
