@@ -45,6 +45,8 @@ function LoadLisntenes(){
 
     marcar.addEventListener('click',function(){
         addMarcador(`${min_time.toString().padStart(2,0)} : ${sec_time.toString().padStart(2,0)} : ${mili_time.toString().padStart(3,0)}`)
+
+        scroll()
     })
     
 
@@ -104,6 +106,10 @@ function crono(){
     sec_time >= 59  ? sec_time = 0: false 
     
     
+}
+function scroll(){
+    var scrollEl = document.querySelector("#tabelas")
+    scrollEl.scrollTop = scrollEl.scrollHeight
 }
 
 window.addEventListener('load',LoadLisntenes)
